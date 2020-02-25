@@ -1,3 +1,7 @@
+/* styles for my resume */
+
+/*font, font size, and color for body, heaader, and paragrphs */
+
 BODY {
   font-family: 'Open Sans',Arial,sans-serif;
   font-size: 1em;
@@ -5,6 +9,7 @@ BODY {
 
 }
 
+/* style for my name */
 H1 {
   font-size: 3em;
   color: #33485e;
@@ -13,6 +18,7 @@ H1 {
 
 }
 
+/* capitalizing title, chnaging color and font size*/
 TITLE {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -20,6 +26,7 @@ TITLE {
 
 }
 
+/* styling for section titles*/
 H2 {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -28,18 +35,22 @@ H2 {
   font-weight: 400;
 }
 
+/* styling for job titles  */
 H3 {
   font-weight: 600;
   font-size: 1.5em;
 
 }
 
+/* styling for job organization */
 H4 {
   font-weight: 400;
   font-size: 1em;
 }
 
+/*styling for job dates */
 H5 {
   font-weight: 400;
   font-size: 1em;
+  font-style: italic;
 }
