@@ -30,7 +30,7 @@ padding-bottom : 50px;
 
 }
 
-/* capitalizing title, chnaging color and font size*/
+/* capitalizing title, chnaging color and font size */
 TITLE {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -39,7 +39,7 @@ TITLE {
 }
 
 /* styling for section titles*/
-#sectionheader {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
@@ -87,10 +87,15 @@ TITLE {
 
 /*styling for contact info list */
 .menu {
-  margin : 0px 0px 0px 0px;
-  padding : 0px 0px 0px 0px;
+  margin-top : 0px;
+  margin-bottom : 0px;
+  margin-right : 0px;
+  margin-left : 0px;
+  padding-top : 0px;
+  padding-bottom : 0px;
+  padding-right : 0px;
+  padding-left: 0px;
   text-align : center;
-  display : inline;
 }
 
 /*styling for education section list */
@@ -111,7 +116,7 @@ TITLE {
 
 /*styling for my title */
 #title {
-  fint-weight : 600;
+  font-weight : 600;
   text-align : center;
   margin-top : 20px;
   margin-bottom : 0px;
