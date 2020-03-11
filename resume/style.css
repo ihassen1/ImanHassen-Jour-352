@@ -11,8 +11,10 @@ BODY {
 
 #container {
 
-width = 100%;
-max-width = 900px;
+width : 100%;
+max-width : 1200px;
+margin : 0 auto;
+padding-bottom : 50px;
 
 }
 /* style for my name */
@@ -21,10 +23,10 @@ max-width = 900px;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
-  border-bottom = 1px #33485e;
-  width = 60%;
-  min-width = 300px;
-  margin = "0 auto";
+  border-bottom : 1px #33485e;
+  width : 60%;
+  min-width : 300px;
+  margin : 0 auto;
 
 }
 
@@ -43,30 +45,84 @@ TITLE {
   background-color: #33485e;
   color: #fff;
   font-weight: 400;
-  margin-bottom = 10px;
-  margin-top = 20px;
-  margin-right = 0;
-  margin-left = 0;
-  width = 70%;
-  min-width = 300px;
+  margin-bottom : 10px;
+  margin-top : 20px;
+  margin-right : 0;
+  margin-left : 0;
+  width  70%;
+  min-width : 300px;
 }
 
 /* styling for job titles  */
-H3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 
 }
 
 /* styling for job organization */
-H4 {
+.organization {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 /*styling for job dates */
-H5 {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top : 2px;
+  margin-bottom : 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/*styling for job descriptions */
+.description {
+  margin-top : 10px;
+  margin-bottom : 10px;
+  margin-right : 0px;
+  margin-left : 0px;
+}
+
+/*styling for contact info list */
+.menu {
+  margin : 0px 0px 0px 0px;
+  padding : 0px 0px 0px 0px;
+  text-align : center;
+  display : inline;
+}
+
+/*styling for education section list */
+#degrees {
+  margin-top : 5px;
+  margin-bottom : 0px;
+  margin-right : 0px;
+  margin-left : 0px;
+}
+
+/*styling for skills section list */
+#do {
+  margin-top : 5px;
+  margin-bottom : 0px;
+  margin-right : 0px;
+  margin-left : 0px;
+}
+
+/*styling for my title */
+#title {
+  fint-weight : 600;
+  text-align : center;
+  margin-top : 20px;
+  margin-bottom : 0px;
+  margin-right : 0px;
+  margin-left : 0px;
+}
+
+/*styling for mission statement */
+.top {
+  width : 60%;
+  min-width : 300px;
+  margin : 0 auto;
+  margin-bottom : 30px;
 }
