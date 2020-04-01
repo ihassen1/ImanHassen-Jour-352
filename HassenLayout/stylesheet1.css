@@ -1,0 +1,34 @@
+#content {
+	width: 900px;
+	margin: 0 auto;
+	}
+
+
+  #byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  }
+
+  h1 {
+    font-family: Helvetica, sans-sarif;
+    font-size: 20px;
+
+  }
+
+  p {
+    font-family:Georgia, serif,
+    fint-size:13px;
+
+  }
+
+blockquote {
+  font-size: 17px;
+  margin: center;
+  color: #CA231E;
+}
+
+.menu {
+
+  text-align : left;
+}

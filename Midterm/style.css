@@ -1,0 +1,66 @@
+#content{
+margin: 0 auto;
+width: 900px;
+}
+
+#banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+}
+/*main headline text, setting the font and size of text*/
+h1{
+font-family: Arial;
+font-size: 1.5em;
+}
+
+/*ubheadline text*/
+h2{
+font-family: Arial;
+font-size: 1em;
+}
+
+#byline{
+  font-size: 12px;
+}
+
+#date{
+  font-size: 12px;
+}
+
+#publication {
+  font-size: 12px;
+}
+/*paragraph text*/
+p{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+}
+/*matching pull out quote text color to banner, making it larger and bold and centered*/
+blockquote {
+  font-size: 16px;
+  font-weight: 900;
+  color: #7b0e20;
+  text-align: center;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+figcaption {
+  text-align: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size=14px;
+}
+
+.questions {
+  font-weight: bold;
+}
