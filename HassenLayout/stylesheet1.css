@@ -4,14 +4,14 @@
 	}
 
 
-  #byline {
+  .byline {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
   }
 
   h1 {
-    font-family: Helvetica, sans-sarif;
+    font-family: Helvetica, sans-serif;
     font-size: 20px;
 
   }
@@ -23,12 +23,10 @@
   }
 
 blockquote {
-  font-size: 17px;
+  font-size: 20px;
   margin: center;
-  color: #CA231E;
-}
+  color: #a64354;
+	font-weight: bold;
+	font-style: italic;
 
-.menu {
-
-  text-align : left;
 }
