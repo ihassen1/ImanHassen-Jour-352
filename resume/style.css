@@ -1,40 +1,79 @@
 /* styles for my resume */
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0b1a43;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-/*font, font size, and color for body, heaader, and paragrphs */
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+}
 
-BODY {
-  font-family: 'Open Sans',Arial,sans-serif;
-  font-size: 1em;
-  color: #444;
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #818181;
 
 }
 
+/* Style page content */
+.main {
+  margin-left: 150px;
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#banner {
+  display: block;
+  width: 100%;
+  padding-top: 0px;
+}
+
+BODY {
+  font-family: 'Times New Roman',serif;
+  font-size: 1em;
+  color: #444;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #0b1a43;
+}
+
+/* I couldn't adjust the margins without having awkward white space */
 #container {
 
 width : 100%;
 max-width : 1200px;
-margin : 0 auto;
-padding-bottom : 50px;
+margin-right: auto;
+margin-left: 10px;
+background-color: white;
+padding-bottom: 10px;
+padding-left: 130px;
 
 }
-/* style for my name */
-#name {
-  font-size: 3em;
-  color: #33485e;
-  text-transform: uppercase;
-  text-align: center;
-  border-bottom : 1px #33485e;
-  width : 60%;
-  min-width : 300px;
-  margin : 0 auto;
 
-}
 
 /* capitalizing title, chnaging color and font size */
 TITLE {
   font-size: 1.5em;
   text-transform: uppercase;
-  color: #33485e;
+  color: #0b1a43;
+  font-family: 'Times New Roman',serif;
 
 }
 
@@ -42,21 +81,20 @@ TITLE {
 .sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
-  background-color: #33485e;
+  background-color: #0b1a43;
   color: #fff;
   font-weight: 400;
-  margin-bottom : 10px;
-  margin-top : 20px;
-  margin-right : 0;
-  margin-left : 0;
-  width  70%;
+  margin: 20px 0px 10px 0px;
+  padding: 10px 0px 10px 10px;
   min-width : 300px;
+  width: 100%;
 }
 
 /* styling for job titles  */
 .jobtitle {
   font-weight: 600;
   font-size: 1.5em;
+
 
 }
 
@@ -86,15 +124,11 @@ TITLE {
 }
 
 /*styling for contact info list */
-.menu {
+.contact {
   margin-top : 0px;
   margin-bottom : 0px;
   margin-right : 0px;
   margin-left : 0px;
-  padding-top : 0px;
-  padding-bottom : 0px;
-  padding-right : 0px;
-  padding-left: 0px;
   text-align : center;
 }
 
@@ -130,4 +164,32 @@ TITLE {
   min-width : 300px;
   margin : 0 auto;
   margin-bottom : 30px;
+}
+
+.footer {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1.5rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #0b1a43;
+  color: #ffffff;
+  text-align: center;
+  width : 100%;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 50%;
+  background-color: 0b1a43;
 }
