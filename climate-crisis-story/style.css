@@ -1,0 +1,117 @@
+#jumbotron {
+  color: #ffffff;
+  background-color:  #c71e1d;
+  padding: 2.5rem;
+
+}
+
+#headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#subheadline {
+text-align: center;
+}
+
+#articleTitle {
+  font-size: 2em;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.chapterHeadline {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: Georgia, serif;
+  line-height: 180%;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-family: Georgia, serif;
+  margin-left: 85px;
+  font-size: 16px;
+  opacity: 0.5;
+
+}
+
+.pullQuote {
+  font-family: "Montserrat",sans-serif;
+  width: 80%;
+  margin:0 auto;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.pullQuote blockquote {
+    border-radius: 2px;
+    position: relative;
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 65%;
+    color: #ffffff;
+    margin: 1rem auto 2rem;
+    background: #c71e1d;
+  }
+
+#pullOut blockquote {
+    float: right;
+    border-radius: 3px;
+    position: relative;
+    font-family: Georgia, serif;
+    padding: 1rem 1.2rem;
+    width: 70%;
+    color: #ffffff;
+    margin: 1rem auto 2rem;
+    background: #c71e1d;
+  }
+
+  /* normal */
+  a:link {
+    color: blue;
+  }
+
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+
+  /* hover */
+  a:hover {
+    color: grey;
+  }
+
+
+#contributions {
+  font-style: italics;
+}
+
+#footer {
+position: relative;
+font-family: Georgia, serif;
+padding: 2.5rem;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: #c71e1d;
+color: #ffffff;
+text-align: center;
+}
